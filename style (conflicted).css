@@ -1,0 +1,69 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  /* max-width: 1280px; */
+  margin: auto;
+}
+
+header{
+  background-color: #4617FE;
+  color: #fff; 
+  height: 70vh;
+}
+
+.logo{
+  margin: 15px 40px 15px;
+}
+
+nav{
+  float: right;
+  margin: 15px 40px 0;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.nav-item{
+  margin: 0 10px;
+}
+
+.nav-item-active{
+  background-color: #fff;
+  color: #4617FE;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.header-text{
+  float: left;
+  margin: 20px;
+  font-size: 25px;
+  margin: 40px 40px;
+}
+
+.header-text p{
+  font-size: 15px;
+}
+
+.header-image{
+  float: right;
+  width: 45%;
+}
+
+.companies{
+  margin: 20px 40px;
+}
+
+.company-items{
+  margin: 20px;
+}
