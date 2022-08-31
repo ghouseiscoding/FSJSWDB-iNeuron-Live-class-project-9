@@ -328,7 +328,7 @@ nav{
 
 @media screen and (max-width: 470px){
   body{
-    max-width: 470px;
+    max-width: 360px;
     margin: auto;
   }
 
@@ -351,7 +351,7 @@ nav{
 }
 
 .header-text h2{
-  font-size: 25px;
+  font-size: 1.25rem;
 }
 
 .header-image{
@@ -384,12 +384,13 @@ nav{
 }
 
 .api{
-  margin: 30px 10px 30px;
+  margin: 30px 5px 30px;
 }
 
 .api-heading{
   font-size: 25px;
   font-weight: 700;
+  margin-left: 10px;
 }
 
 
@@ -401,15 +402,15 @@ nav{
 
 .card-active, .card{
   width: 150px;
-  margin: 10px 10px;
+  margin: 10px 5px;
 }
 
 .card{
-  padding: 20px 15px;
+  padding: 20px 5px;
 }
 
 .card-active{
-  padding: 20px 15px;
+  padding: 20px 10px;
 }
 
 .card-logo{
@@ -444,17 +445,21 @@ nav{
 }
 
 .blog-image img{
-  width: 180px;
+  width: 10rem;
 }
 
 .blog-content{
-  height: 198px;
+  height: 11rem;
   width: 100vw;
   padding: 5px 10px;
 }
 
 .blog-content h3{
-  font-size: 16px;
+  font-size: .9rem;
+}
+
+.blog-content small{
+  font-size: .6rem;
 }
 
 .faq-section{
